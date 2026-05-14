@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tab Manager</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🧠 Tab Manager</h1>
+
+    <input
+      type="text"
+      id="projectName"
+      placeholder="プロジェクト名">
+
+    <button id="saveBtn">
+      タブを保存して削除
+    </button>
+
+    <button id="removeBtn">
+      重複タブを削除
+    </button>
+
+    <hr>
+
+    <h3>保存済み</h3>
+
+    <div id="projectList"></div>
+
+    <p id="result"></p>
+
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
